@@ -84,7 +84,7 @@ module.exports={
                     });
                   }
                   return res.status(401).send({
-                    msg: 'Username atau password salah'
+                    msg: 'Email atau password salah'
                   });
                 }
               );
